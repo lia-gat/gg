@@ -95,7 +95,7 @@
               		{ map: texture, side: THREE.BackSide } );
                   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
                   texture.repeat.x = - 1;
-                  if (i==4 || i==3 ) texture.repeat.set( 3, 3 );
+                  if (i==4) texture.repeat.set( 3, 3 );
                   if (i==3) texture.offset.set(0.05, 0.2);
 				materials.push( material );
 				}              
@@ -183,4 +183,5 @@
 		</script>
 
 	</body>
+
 </html>
